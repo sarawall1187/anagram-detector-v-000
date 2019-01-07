@@ -9,6 +9,7 @@ class Anagram
     possible_anagrams.each do |word|
       word = [a, b, c].sort == [c, a, b].sort
     end
+    possible_anagrams
   end 
   
 end
