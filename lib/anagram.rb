@@ -6,10 +6,10 @@ class Anagram
   end 
   
   def match
-    @word.collect do |word|
+    possible_anagrams = @word.collect do |word|
       word = ["a", "b", "c"].sort == ["c", "a", "b"].sort
     end
-    @word
+   possible_anagrams
   end 
   
 end
