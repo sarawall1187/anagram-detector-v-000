@@ -9,7 +9,6 @@ class Anagram
    possible_anagrams.select do |w|
       w.split("").sort == @word.split("").sort
     end
-    possible_anagrams
   end 
   
 end
