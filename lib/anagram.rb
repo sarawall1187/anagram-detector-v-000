@@ -6,9 +6,10 @@ class Anagram
   end 
   
   def match(possible_anagrams)
-   possible_anagrams.each_with_object do |word|
-      word = ["a", "b", "c"].split("").sort == ["c", "a", "b"].split("").sort
+   possible_anagrams.each do |w|
+      w.split("").sort == ["c", "a", "b"].split("").sort
     end
+    
   end 
   
 end
