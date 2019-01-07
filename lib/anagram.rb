@@ -5,7 +5,7 @@ class Anagram
     @word = word 
   end 
   
-  def match(possible_anagrams)
+  def match
     possible_anagrams.collect do |word|
       word = ["a", "b", "c"].sort == ["c", "a", "b"].sort
     end
