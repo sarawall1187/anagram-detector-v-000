@@ -4,4 +4,7 @@ class Anagram
   def intitialize
   end 
   
+  def match
+  end 
+  
 end
